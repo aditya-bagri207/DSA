@@ -6,7 +6,7 @@ using namespace std;
 
 int main(){
 
-    int arr [] = {1,1,0,1,1,1};
+    int arr [] = {1,1,0};
     int count= 0;
     int maxi = 0;
     int n = sizeof(arr);

@@ -4,12 +4,22 @@ using namespace std;
 int main(){
 
     int arr[] = {1,2,3,4,5};
+    bool isSorted = true;
+
+
 
     for(int i= 1; i<=4; i++){
         if(arr[i-1]>arr[i]){
-            cout<<"not sorted"<<endl;
+            isSorted = false;
+            break;
         }
     }
-    cout<<"sorted"<<endl;
+    if(isSorted){
+        cout<<"array is sorted";
+    }
+    else{
+        cout<<"array is not sorted";
+    }
+    return 0;
 
 }

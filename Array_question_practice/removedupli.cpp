@@ -18,8 +18,8 @@ int main(){
            
         }
     }
-    for(int k=0; k<=i; k++){
-        cout<<arr[k]<<" ";
+    for(int j=0; j<=i; j++){
+        cout<<arr[j]<<" ";
     }
 }
 
