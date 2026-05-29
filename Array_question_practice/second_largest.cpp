@@ -13,7 +13,7 @@ int main(){
     }
 
 
-    int second_largest = arr[0];
+    int second_largest = -1;
      for(int i=0; i<=3; i++){
         if(arr[i]!=largest){
             second_largest = max(second_largest,arr[i]);
